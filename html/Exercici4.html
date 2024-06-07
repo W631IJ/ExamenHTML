@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Pagina Web</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+    header{
+        background-color: blueviolet;
+        color: black;
+        padding: 10px;
+    }
+    ul.header{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    input{
+        width: 200px;
+
+    }
+    button{
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    article.one{
+        grid-column: 1 / 7;
+        grid-row: 1;
+    }
+    article.two{
+        grid-column: 1 / 7;
+        grid-row: 2 / 3;
+    }
+    article.three{
+        grid-column: 1 / 7;
+        grid-row: 3 / 4;
+    }
+    aside{
+        grid-column: 7 / 9;
+        grid-row: 1 / 4;
+    }
+    footer{
+        color: black;
+        text-align: left;
+    }
+</style>
+<body>
+    <h1>Header</h1>
+    <header>
+        <nav>
+            <ul class="header">
+                <li>HOME</li>
+                <li>OUR TEAM</li>
+                <li>PROJECTS</li>
+                <li>CONTACT</li>
+                <input type="text" name="name">
+                <button>Go!</button>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        
+        <article class="one">
+            <h1>Article heading</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac dolor vitae dolor tristique fringilla sed quis nisi.
+                Mauris dapibus, arcu ac fringilla venenatis, diam magna efficitur elit, non aliquam sem eros id dolor. Donec quis orci
+                orci. Ut varius iaculis massa, eu rhoncus ligula fringilla nec. Nulla tempus rutrum lacus a tempor. Mauris nec neque
+                dolor. Fusce rhoncus ut est eget accumsan. Nunc a dui vitae ante consequat iaculis. Quisque venenatis mi dui, vel
+                pellentesque lorem tempor nec. Nam accumsan enim in augue vehicula, eget sagittis erat laoreet. Nam ullamcorper urna id
+                orci scelerisque sodales. Fusce ullamcorper leo vitae orci aliquam convallis. Phasellus lacinia quam quis eros posuere,
+                sed pellentesque arcu hendrerit.
+            </p>
+        </article>
+        <article class="two">
+            <h2>Subsection</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus finibus turpis, pulvinar euismod nulla ornare
+                et. Nullam tincidunt in erat id condimentum. Vivamus et risus erat. Quisque gravida mauris ligula, non egestas dui
+                tempor nec. Sed sed nunc et urna feugiat feugiat. Curabitur id malesuada tellus, vel dictum enim. Aenean malesuada
+                mollis ultricies. Fusce sollicitudin nisi quis posuere malesuada. Etiam venenatis mi mauris, in condimentum nulla
+                fringilla sed. Mauris pharetra in lorem nec mattis. Praesent eleifend turpis justo, sed condimentum eros auctor a.
+            </p>
+            <p>
+                Nam felis dolor, mollis eget volutpat vel, elementum quis neque. Vestibulum elementum felis et feugiat tempor. Donec
+                eros arcu, condimentum at lectus in, interdum iaculis felis. Sed vitae fringilla elit. Aenean accumsan vulputate
+                tincidunt. Sed non rhoncus diam. Nam euismod ullamcorper lectus vel venenatis. Proin vel mauris lobortis, auctor elit
+                sed, auctor mi. Proin at lectus at sapien sollicitudin rhoncus. Nullam finibus diam vitae quam ultrices, ut sagittis
+                ipsum dignissim. Curabitur elementum tincidunt felis, non dapibus turpis dapibus eu. Ut viverra justo lectus, vel
+                pellentesque risus elementum id. Phasellus condimentum blandit finibus. Nullam scelerisque lectus non volutpat mollis.
+                Etiam auctor ipsum lectus, ac scelerisque nisi semper at.
+            </p>
+        </article>
+        <article class="three">
+            <h2>Another subsection</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus finibus turpis, pulvinar euismod nulla
+                ornare
+                et. Nullam tincidunt in erat id condimentum. Vivamus et risus erat. Quisque gravida mauris ligula, non egestas dui
+                tempor nec. Sed sed nunc et urna feugiat feugiat. Curabitur id malesuada tellus, vel dictum enim. Aenean malesuada
+                mollis ultricies. Fusce sollicitudin nisi quis posuere malesuada. Etiam venenatis mi mauris, in condimentum nulla
+                fringilla sed. Mauris pharetra in lorem nec mattis. Praesent eleifend turpis justo, sed condimentum eros auctor a.
+            </p>
+            <p>
+                Nam felis dolor, mollis eget volutpat vel, elementum quis neque. Vestibulum elementum felis et feugiat tempor. Donec
+                eros arcu, condimentum at lectus in, interdum iaculis felis. Sed vitae fringilla elit. Aenean accumsan vulputate
+                tincidunt. Sed non rhoncus diam. Nam euismod ullamcorper lectus vel venenatis. Proin vel mauris lobortis, auctor
+                elit
+                sed, auctor mi. Proin at lectus at sapien sollicitudin rhoncus. Nullam finibus diam vitae quam ultrices, ut sagittis
+                ipsum dignissim. Curabitur elementum tincidunt felis, non dapibus turpis dapibus eu. Ut viverra justo lectus, vel
+                pellentesque risus elementum id. Phasellus condimentum blandit finibus. Nullam scelerisque lectus non volutpat
+                mollis.
+                Etiam auctor ipsum lectus, ac scelerisque nisi semper at.
+            </p>
+        </article>
+        <aside>
+            <h2>Related</h2>
+            <ul>
+                <li><a href="">Article 1</a></li>
+                <li><a href="">Article 2</a></li>
+                <li><a href="">Article 3</a></li>
+                <li><a href="">Article 4</a></li>
+                <li><a href="">Article 5</a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>@Copyrigth</p>
+</body>
+</html>

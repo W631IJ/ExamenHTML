@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercici 1</title>
+</head>
+<body>
+    <h1>Formulari</h1>
+    <form action="formulario.php" method="get">
+        <!--Name-->
+        <label>Nom Alumne:</label>
+        <input type="text" name="name"><br><br>
+        <label>Llinatge 1:</label>
+        <input type="text" name="surname"><br><br>
+        <label>Llinatge 2:</label>
+        <input type="text" name="surname2"><br><br>
+        <!-- Mail -->
+        <label>Mail:</label>
+        <input type="email" name="mail"><br><br>
+        <!-- Telefono -->
+        <label>Telefon:</label>
+        <input type="tel" name="phone"><br><br>
+        <!-- Fecha de nacimiento -->
+        <label>Data de naixement:</label>
+        <input type="date" name="date"><br><br>
+        <!-- Moduls de cicle -->
+        <label>Moduls de cicle:</label>
+        <select name="moduls" id="moduls">
+            <option value="DAW">DAW</option>
+            <option value="DAM">DAM</option>
+            <option value="ASIX">ASIX</option>
+            <option value="SMX">SMX</option>
+        </select><br><br>
+        <!-- Ciutat -->
+        <label>Ciutat:</label>
+        <input type="text" name="city"><br><br>
+        <!-- Isla -->
+        <label>Illa:</label>
+        <select>
+            <option value="Mallorca">Mallorca</option>
+            <option value="Menorca">Menorca</option>
+            <option value="Eivissa">Eivissa</option>
+            <option value="Formentera">Formentera</option>
+        </select><br><br>
+    
+    
+        <br>
+        <br>
+        <!--Submit-->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

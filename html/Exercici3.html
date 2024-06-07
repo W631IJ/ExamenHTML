@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<style>
+    ul{
+        list-style-type: disc;
+    }
+    .list a{
+        list-style:circle;
+        color: blue;
+    }
+    .x{
+        list-style-type: none;
+    }
+</style>
+<body>
+    <h1>Menú</h1>
+    <ul>
+        <li>Inicio</li>
+        <li><b>Noticias</b></li>
+            <ul>
+                <li class="list"><a href="">Recientes</a></li>
+                <li class="list"><a href="">Más Leidas</a></li>
+                <li class="list"><a href="">Más valoradas</a></li>
+            </ul>
+        <li>Articulos</li>
+            <ol>
+                <li><b>XHTML</b></li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Otros</li>
+            </ol>
+        <li>Contacto</li>
+    </ul>
+    <ul class="x">
+        <li>Email</li>
+            <ul>
+                <a><b>nombre@direccion.com</b></a>
+            </ul>
+        <li>Telefono</li>
+            <ul>
+                <a>900 900 900</a>
+            </ul>
+        <li>Fax</li>
+            <ul>
+                <a>900 900 900</a>
+            </ul>
+        
+    </ul>
+</body>
+</html>
